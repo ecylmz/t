@@ -1,0 +1,7 @@
+pygments: true
+permalink: /post/:title/
+rdiscount:
+  extensions: [smart]
+ 
+url: http://t.ecylmz.com
+
