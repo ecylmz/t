@@ -2,6 +2,9 @@
 .container {
   padding-top: 20px;
   background:#F0F0F0;
+  border:3px inset black;
+  -moz-border-radius: 1em;
+  -webkit-border-radius: 1em;
 }
 
 body {
