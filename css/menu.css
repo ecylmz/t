@@ -1,14 +1,12 @@
 .glossymenu{
 padding: 0;
 width: 200px; /*width of menu*/
-/*border: 1px solid #6d4214;*/
-border-bottom-width: 0;
 }
 
 .glossymenu a.menuitem{
 background: url(/images/glossyback.jpg) repeat-x bottom left !important;
 font-size:12px;
-color:black !important;
+color:white !important;
 display: block;
 position: relative; /*To help in the anchoring of the ".statusicon" icon image*/
 width: auto;
@@ -19,7 +17,7 @@ text-decoration: none;
 
 
 .glossymenu a.menuitem:visited, .glossymenu .menuitem:active{
-color:#FFFFFF;
+color:white;
 }
 
 .glossymenu a.menuitem .statusicon{ /*CSS for icon image that gets dynamically added to headers*/
@@ -50,7 +48,7 @@ border-bottom: 1px solid  #CCCCCC;
 .glossymenu div.submenu ul li a{
 display: block;
 font-size:11px;
-color: black;
+color: white;
 text-decoration: none;
 padding: 7px 0;
 padding-left: 10px;
