@@ -1,10 +1,12 @@
 /* GENERAL STYLES */
 .container {
   padding-top: 20px;
+  background:#F0F0F0;
 }
 
 body {
-  background-color: #EAECE9 ;
+  /*background-color: #EAECE9 ;*/
+  background:url(/images/bg1.png);
   color: #363636;
   font-family: georgia, "times new roman", serif;
 }
