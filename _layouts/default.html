@@ -12,6 +12,8 @@
       <link rel="stylesheet" href="https://github.com/joshuaclayton/blueprint-css/raw/master/blueprint/ie.css" type="text/css" media="screen, projection" />
     <![endif]-->
     <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="/css/nivo-slider.css" type="text/css" media="screen" />
+    <link href="/css/menu.css" rel="stylesheet" type="text/css" />
 
 </head>
 
@@ -19,16 +21,17 @@
   <div class="container">
 	<a href="{{site.url}}" /><img src="/images/logo1.gif" /> </a>
     <div id="left" class="span-5 colborder" style="margin-left:5px;">
-      {% include sidebar1.html %}
+      {% include sidebar1 %}
     </div>
   
     <div id="main" class="span-12 colborder">
+      {% include slider %}
       <h2>00010011 Güncel</h2>
       {{ content }}
     </div>
 
     <div id="right" class="span-5 last" style="margin-left:-10px;">
-      {% include sidebar2.html %}
+      {% include sidebar2%}
     </div>
 
     <div id="footer" class="span-24">
@@ -37,7 +40,7 @@
 
   </div> <!-- end .container -->
 
-  {% include analytics.html %}
+  {% include analytics %}
 
 </body>
 </html>

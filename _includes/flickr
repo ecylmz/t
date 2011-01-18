@@ -1,4 +1,4 @@
-<style>
+<!--<style>
   div.flickr_badge_image {
   display:inline; margin: 0 3px 3px 0;
 }
@@ -7,7 +7,7 @@ div.flickr_badge_image a {
   background:none !important; padding:0 !important; margin:0 !important;
 }
 </style>
-
+-->
 <h2>Fotoğraflar</h2>
-<script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=10&display=latest&size=s&layout=x&source=user&user=22461806%40N00">
-</script>
+<!--<script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=10&display=latest&size=s&layout=x&source=user&user=22461806%40N00">
+</script> -->

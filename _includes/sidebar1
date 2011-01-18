@@ -4,7 +4,7 @@
 
 <h6>Navigasyon</h6>
 
-{% include menu.html %}
+{% include menu %}
 
 
 
