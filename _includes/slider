@@ -1,7 +1,7 @@
 <div id="slider-wrapper" style="padding-top:1px; padding-bottom:31px;">
 <div id="slider" class="nivoSlider">
     <img src="/images/res1.png" alt="" title="This is an example of a caption" />
-    <img src="/images/res2.png" alt="" title="#htmlcaption" title="This is an example of a caption" />
+    <img src="/images/res2.png" alt="" title="This is an example of a caption" />
     <img src="/images/res3.png" alt="" title="This is an example of a caption" />
     <img src="/images/res2.png" alt=""  title="This is an example of a caption"/>
 </div>
