@@ -1,15 +1,18 @@
 <html>
 <head>
   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-  <title>{{site.name}} - {{ page.title }}</title>
+  <title>Ondokuz Mayıs Üniversitesi Bilgisayar Mühendisliği</title>
 
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 
-    <link rel="stylesheet" href="https://github.com/joshuaclayton/blueprint-css/raw/master/blueprint/screen.css" type="text/css" media="screen, projection" />
-    <link rel="stylesheet" href="https://github.com/joshuaclayton/blueprint-css/raw/master/blueprint/print.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="/css/blueprint/screen.css" type="text/css" 
+    media="screen, projection" />
+    <link rel="stylesheet" href="/css/blueprint/print.css" type="text/css" 
+    media="print" />
     
     <!--[if IE]>
-      <link rel="stylesheet" href="https://github.com/joshuaclayton/blueprint-css/raw/master/blueprint/ie.css" type="text/css" media="screen, projection" />
+      <link rel="stylesheet" href="/css/blueprint/ie.css" type="text/css" 
+      media="screen, projection" />
     <![endif]-->
     <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection" />
     <link rel="stylesheet" href="/css/nivo-slider.css" type="text/css" media="screen" />
@@ -21,7 +24,7 @@
   <div class="container">
 	<a href="{{site.url}}" /><img src="/images/logo1.gif" /> </a>
     <div id="left" class="span-5 colborder" style="margin-left:5px;">
-      {% include sidebar1 %}
+      {% include left %}
     </div>
   
     <div id="main" class="span-12 colborder">
@@ -31,14 +34,14 @@
     </div>
 
     <div id="right" class="span-5 last" style="margin-left:-10px;">
-      {% include sidebar2%}
+      {% include right %}
     </div>
 
     <div id="footer" class="span-24">
       footer'ı sonra doldururuz :)
     </div>
 
-  </div> <!-- end .container -->
+  </div>
 
   {% include analytics %}
 
