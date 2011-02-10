@@ -1,7 +1,62 @@
 pygments: true
-permalink: /post/:title/
+permalink: /:categories:month/:title
 rdiscount:
   extensions: [smart]
  
 url: http://t.ecylmz.com
 
+param:
+        # --------------------------------------------------------------
+        # kişisel parametreler
+        # --------------------------------------------------------------
+        # unix kullanıcı adı (ör. roktas)
+        # dikkat!  unix kullanıcı adı github hesabından farklı olabilir
+        user: ecylmz
+        # tam kullanıcı adı (ör. Recai Oktaş)
+        fullname: Emre Can YILMAZ
+        # email adresi (ör. roktas@bil.omu.edu.tr)
+        email: ecylmz@bil.omu.edu.tr
+        # ünvan (ör. Bilgisayar Mühendisliği Öğrencisi)
+        title: <a href="http://ondokuz.biz/">19</a> üyesi
+        # GnuPG kısa parmak izi (ör. DEADBEEF)
+        gpg: ~
+        # twitter adresi (ör. http://19.status.net/roktas)
+        twitter: http://19.status.net/ecylmz
+        # flick adresi (ör. http://flickr.com/photos/roktas)
+        flickr: http://flickr.com/photos/~
+        # facebook adresi (ör. http://facebook.com/roktas)
+        facebook: http://facebook.com/ecylmz
+        # özet akışı adresi (ör. http://feeds.feedburner.com/roktas)
+        feed: http://feeds.feedburner.com/ecylmz
+
+        # --------------------------------------------------------------
+        # sitede kullanılan bazı metinler
+        # --------------------------------------------------------------
+        section0: Web Günlüğü
+        section1: Makaleler
+        section2: İlkeler
+        section7: Çeşitli
+        section9: Notlar
+
+        # --------------------------------------------------------------
+        # ekstra özellik parametreleri
+        #
+        # bu değişkenler tanımlanmazsa (~ kullanın) öntanımlı sitede
+        # ilgili özellik bulunmayacaktır (örneğin: disqus)
+        #
+        # dikkat!  değişkenin tanımlı olmaması için ~ değeri verin
+        # --------------------------------------------------------------
+        # girdi arşivi
+        archive: Son Girdiler
+        # ilişkili girdiler
+        related: Diğer Girdiler
+        # logo (ör. http://00010011.github.com/assets/19/19-normal-128x128.png)
+        logo: http://ecylmz.github.com/chrome/19/19-normal-128x128.png
+        # google site içi arama kutusu
+        google: ~
+        # google analytics takip numarası (ör. UA-1234567-8
+        googleanalyticsid: UA-17317907-1
+        # sayfa yorumları için disqus site kaydı (ör. roktas)
+        disqus: ecylmz
+        # GitHub şerit metni (ör. GitHub'dayım)
+        ribbon: GitHub'dayım

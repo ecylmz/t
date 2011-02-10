@@ -1,12 +1,13 @@
-<h2>19.status.net</h2>
+<div id="category">
+<h3>Kategoriler</h3>
+<br />
+<a href="{{ site.url }}" ><img src="/images/star-red-32.png" /></a>
+<a href="{{site.url }}/1"><img src="/images/1-red-32.png" /></a>
+<a href="{{ site.url }}/9"><img src="/images/9-red-32.png" /></a>
+</div>
+<br />
 
-    <script type="text/javascript" src="/js/identica-badge.js">
-    {
-       "user":"ecylmz",
-       "server":"19.status.net",
-       "headerText":""
-    }
-    </script>
+<h3>Twitter</h3>
 
-
+{% include twitter %}
 

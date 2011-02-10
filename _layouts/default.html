@@ -1,7 +1,7 @@
 <html>
 <head>
   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-  <title>Ondokuz Mayıs Üniversitesi Bilgisayar Mühendisliği</title>
+  <title>Emre Can YILMAZ | ecylmz</title>
 
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 
@@ -9,38 +9,41 @@
     media="screen, projection" />
     <link rel="stylesheet" href="/css/blueprint/print.css" type="text/css" 
     media="print" />
-    
     <!--[if IE]>
       <link rel="stylesheet" href="/css/blueprint/ie.css" type="text/css" 
       media="screen, projection" />
     <![endif]-->
-    <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection" />
-    <link rel="stylesheet" href="/css/nivo-slider.css" type="text/css" media="screen" />
-    <link href="/css/menu.css" rel="stylesheet" type="text/css" />
-
+    <link rel="stylesheet" href="/css/main.css" type="text/css" media="screen, 
+    projection" />
 </head>
 
 <body>
   <div class="container">
-	<a href="{{site.url}}" /><img src="/images/logo1.gif" /> </a>
-    <div id="left" class="span-5 colborder" style="margin-left:5px;">
-      {% include left %}
-    </div>
-  
-    <div id="main" class="span-12 colborder">
-      {% include slider %}
-      <h2>00010011 Güncel</h2>
+    {% include logo %}
+    <div id="main" class="span-15 prepend-1">
+      <h3>00010011 Güncel</h3>
       {{ content }}
     </div>
 
-    <div id="right" class="span-5 last" style="margin-left:-10px;">
+    <div id="right" class="span-7 last" style="">
       {% include right %}
     </div>
 
     <div id="footer" class="span-24">
-      footer'ı sonra doldururuz :)
-    </div>
+      <div id="footer-left" class="span-8 prepend-top">
+        {% include about %}
+      </div>
 
+      <div id="footer-center"class="span-8 prepend-top">
+        {% include contact %}
+      </div>
+
+      <div id="footer-right" class="span-8 prepend-top last">
+      {% include formspring %}
+      </div>
+    </div>
+      <b>Copyright &copy; , 2011 ecylmz | Designed by <a href="{{ site.url }}"> 
+          ecylmz</a></b>
   </div>
 
   {% include analytics %}

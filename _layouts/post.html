@@ -5,13 +5,15 @@ layout: default
 <div class="post" >
   <h3 class="title"> {{ page.title }}</h3>
 
-  <p class="post-metadata"><span class="pagedate">{{ page.date | date: "%b %d, %Y" }}</span>
+  <p class="post-metadata"><span class="pagedate">{{ page.date | date: "%Y-%m-%d" }}</span>
   {% if page.categories %} 
   Tagged: {{ page.categories | array_to_sentence_string }}
   {% endif %}
   </p>
 
   {{ content }}
+
+  {% include disqus %}
 
   <div class="related">
   <h4>Yakındaki Gönderiler</h4>
